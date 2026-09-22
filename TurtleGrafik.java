@@ -166,7 +166,13 @@ public class TurtleGrafik extends JFrame {
 	
 	private void aufg6() {
 		// Aufgabe 6
+		double laenge = 15;
 		
+		for (int i = 0; i < 64; i++;) {
+		t.vor(laenge);
+		t.drehen(90);
+		laenge = laenge + laenge / 15;
+		}
 	}
 	
 	private void aufg7() {
